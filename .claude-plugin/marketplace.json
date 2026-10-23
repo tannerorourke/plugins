@@ -1,0 +1,35 @@
+{
+  "name": "tannerorourke",
+  "owner": {
+    "name": "Tanner O'Rourke",
+    "url": "https://github.com/tannerorourke"
+  },
+  "metadata": {
+    "description": "Tanner O'Rourke's plugin index. Each entry is its own repository; this manifest only points at them.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "pnw-outdoor-planner",
+      "source": {
+        "source": "github",
+        "repo": "tannerorourke/pnw-outdoor-planner"
+      },
+      "description": "Researches a Pacific Northwest outdoor trip across six factor agents and returns a sourced go/no-go verdict, with weather and avalanche skills usable on their own.",
+      "author": {
+        "name": "Tanner O'Rourke"
+      },
+      "homepage": "https://github.com/tannerorourke/pnw-outdoor-planner",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "outdoors",
+        "mountaineering",
+        "weather",
+        "avalanche",
+        "pacific-northwest",
+        "workflow"
+      ]
+    }
+  ]
+}
