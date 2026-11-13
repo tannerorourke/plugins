@@ -30,27 +30,6 @@
         "pacific-northwest",
         "workflow"
       ]
-    },
-    {
-      "name": "tre",
-      "source": {
-        "source": "github",
-        "repo": "tannerorourke/tre-the-research-team"
-      },
-      "description": "Operate the TRE research lab from Claude Code: start workflow runs on the local tre serve daemon, watch them to their exit line, answer human gates, and take the Research Scientist or Tech Lead charter.",
-      "author": {
-        "name": "Tanner O'Rourke"
-      },
-      "homepage": "https://github.com/tannerorourke/tre-the-research-team",
-      "license": "MIT",
-      "category": "development",
-      "keywords": [
-        "agents",
-        "ml-research",
-        "mcp",
-        "workflow",
-        "research-lab"
-      ]
     }
   ]
 }

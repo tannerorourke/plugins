@@ -7,7 +7,6 @@ Claude Code plugin marketplace, all products designed and developed by Tanner O'
 | Name | What it does | Repository |
 | --- | --- | --- |
 | `pnw-outdoor-planner` | Researches a Pacific Northwest outdoor trip across six factor agents and returns a sourced go/no-go verdict, with weather and avalanche skills usable on their own. | [tannerorourke/pnw-outdoor-planner](https://github.com/tannerorourke/pnw-outdoor-planner) |
-| `tre` | Runs a three-agent ML research lab (Research Scientist, Tech Lead, Developer) over a git repository: start workflow runs, watch them to their exit line, and answer human gates. Its local MCP server needs `uv` on PATH. | [tannerorourke/tre-the-research-team](https://github.com/tannerorourke/tre-the-research-team) |
 
 ## Installation
 
