@@ -30,6 +30,27 @@
         "pacific-northwest",
         "workflow"
       ]
+    },
+    {
+      "name": "shopping-research",
+      "source": {
+        "source": "github",
+        "repo": "tannerorourke/shopping-research-mcp"
+      },
+      "description": "Product search, cross-retailer prices, Amazon price history, and community deals over free sources, with self-reported coverage on every call.",
+      "author": {
+        "name": "Tanner O'Rourke"
+      },
+      "homepage": "https://github.com/tannerorourke/shopping-research-mcp",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "shopping",
+        "price-comparison",
+        "deals",
+        "price-history",
+        "mcp"
+      ]
     }
   ]
 }
