@@ -8,6 +8,8 @@ Curated set of plugins designed and developed by Tanner O'Rourke. All our suppor
 | --- | --- | --- |
 | `pnw-outdoor-planner` | Researches a Pacific Northwest outdoor trip across six factor agents and returns a sourced go/no-go verdict. Weather and avalanche risk skills are available on their own. | [tannerorourke/pnw-outdoor-planner](https://github.com/tannerorourke/pnw-outdoor-planner) |
 | `shopping-research` | A suite of tools and skills for finding the best product price. Product search, cross-retailer prices, Amazon price history, and community deals over free sources, with self-reported coverage on every call. Runs a local MCP server in order to utilize a Chromium window to get CamelCamelCamel price history (requires `uv`). The plugin carries the server and the skill for Claude Code; the Claude Desktop app takes the server from the repository's `.mcpb` bundle. | [tannerorourke/shopping-research-mcp](https://github.com/tannerorourke/shopping-research-mcp) |
+| `executor` | Runs a written plan as contracted checkpoints. Each one is briefed to a delegate agent, gated by its own acceptance commands, and recorded in a trace when the run closes. Brings five skills, five agents, and the hooks that run the gate. | [tannerorourke/toolkit](https://github.com/tannerorourke/toolkit/tree/main/plugins/executor) |
+| `roster` | Practice packs a session or a delegate reads before it works: the experience rules every project passes, a design procedure with rules for five media, and four review lenses, routed by one skill. Installs alone, and names the `executor` agents where they help. | [tannerorourke/toolkit](https://github.com/tannerorourke/toolkit/tree/main/plugins/roster) |
 
 ## Installation
 
@@ -17,6 +19,8 @@ Add the marketplace once, then install any plugin from it:
 claude plugin marketplace add tannerorourke/plugins
 claude plugin install pnw-outdoor-planner@tannerorourke
 claude plugin install shopping-research@tannerorourke
+claude plugin install executor@tannerorourke
+claude plugin install roster@tannerorourke
 ```
 
 Pull new entries and versions, then validate with:

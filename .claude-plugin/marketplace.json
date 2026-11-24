@@ -51,6 +51,50 @@
         "price-history",
         "mcp"
       ]
+    },
+    {
+      "name": "executor",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/tannerorourke/toolkit.git",
+        "path": "plugins/executor"
+      },
+      "description": "Runs a written plan as contracted checkpoints: briefs a delegate agent for each one, gates the result with the checkpoint's own acceptance commands, and writes a trace of the run at close.",
+      "author": {
+        "name": "Tanner O'Rourke"
+      },
+      "homepage": "https://github.com/tannerorourke/toolkit",
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "planning",
+        "delegation",
+        "subagents",
+        "verification",
+        "workflow"
+      ]
+    },
+    {
+      "name": "roster",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/tannerorourke/toolkit.git",
+        "path": "plugins/roster"
+      },
+      "description": "Practice packs a session or a delegate reads before it works: the experience rules every project passes, a design procedure with rules for five media, and four review lenses, routed by one skill.",
+      "author": {
+        "name": "Tanner O'Rourke"
+      },
+      "homepage": "https://github.com/tannerorourke/toolkit",
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "practices",
+        "design",
+        "review",
+        "subagents",
+        "workflow"
+      ]
     }
   ]
 }
